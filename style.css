@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+
+body, html { margin: 0; }
+
+.main {
+	text-align: center;
+	margin: auto;
+}
+h1 { margin: 0; }
+
+.inpDiv, .btnDiv, h1, .answerContainer { padding: 10px 0 10px 0; }
+
+input {
+	width: 50%;
+	height: 20px;
+}
+button, input { font-size: 16px; }
+
+.answer {
+	font-size: 32px;
+	margin: auto;
+	width: fit-content;
+	border: 2px solid red;
+	padding: 10px 5px 10px 5px;
+}
